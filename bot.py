@@ -11,8 +11,9 @@ async def send_message(message, user_message, is_private):
 
 
 def run_discord_bot():
-    token = "Sorry, Can't give this out"
-    client = discord.Client(intents=discord.Intents.default())
+    token = 'MTA5ODMwODQxNTU0NzI0NDY5Ng.GddcKm.pDhvyCsdtsfcKbZSeZxkMN60hZDQGE4rOL0Q8s'
+    intents = discord.Intents.all()
+    client = discord.Client(intents=intents)
 
     @client.event
     async def on_ready():
@@ -28,7 +29,7 @@ def run_discord_bot():
         user_message = str(message.content)
         channel = str(message.channel)
 
-        print(f'{username} said "{user_message}" ({channel})')
+       # print(f'{username} said "{user_message}" ({channel})')
 
         if user_message[0] == "?":
             user_message = user_message[1:]

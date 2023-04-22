@@ -1,0 +1,11 @@
+- Implement Rudimentary Functionality
+Completed: 4/19
+- Solve bot not reading messages issue
+Completed: 4/22
+- Allow bot to remain active when disconnected
+Completed: 4/22
+
+- Implement slash commands
+- Allow bot to delete/replace message with result message
+- Format return values
+- Replace rudimentary intents with specific intents
